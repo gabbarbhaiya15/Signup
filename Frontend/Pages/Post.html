@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Form</title>
+  <link rel="stylesheet" href="../Css/Post.css">
+</head>
+<body>
+
+  <input type="text" name="text" class="input-title" placeholder="write title" id="titleInput" />
+
+  <div class="form-control">
+       <span class="input-borders input-border-alts"></span>
+  </div>
+
+  <label for="images" class="drop-container" id="dropcontainer">
+    <span class="drop-title">Drop files here</span>
+    or
+    <input type="file" id="images" accept="image/*" required />
+  </label>
+
+  <button class="button" id="postButton">POST</button>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="Post.js"></script>
+  </body>
+</html>
